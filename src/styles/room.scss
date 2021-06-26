@@ -9,10 +9,24 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+
+
+
+            > img {
+                max-height: 45px;
+            }
+
+            > div {
+                display: flex;
+                gap: 16px;
+
+                button{
+                    height: 40px;
+                }
+            }
+
         }
-        > img {
-            max-height: 45px;
-        }
+
     }
 
     main {
@@ -57,18 +71,18 @@
                 align-items: center;
                 margin-top: 16px;
 
-                .user-info{
+                .user-info {
                     display: flex;
                     align-items: center;
 
-                    img{
+                    img {
                         width: 32px;
                         height: 32px;
                         border-radius: 50%;
                         border: 2px solid #e559f9;
                     }
 
-                    span{
+                    span {
                         margin-left: 8px;
                         color: #29292e;
                         font-weight: 500;
@@ -76,7 +90,7 @@
                     }
                 }
 
-                >span {
+                > span {
                     font-size: 14px;
                     color: #737380;
                     font-weight: 500;
@@ -92,7 +106,7 @@
                 }
             }
         }
-        .question-list{
+        .question-list {
             margin-top: 32px;
         }
     }
